@@ -1,0 +1,29 @@
+.side-profile {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    h1 {
+        margin: 20px 0;
+        font-weight: 600;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .social-links {
+        margin-top: 50px;
+        a {
+            --bs-btn-padding-x: 24px;
+            --bs-btn-font-size: 12px;
+            --bs-btn-font-weight: 600;
+        }
+    }
+}

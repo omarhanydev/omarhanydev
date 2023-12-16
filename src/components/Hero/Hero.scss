@@ -1,0 +1,13 @@
+.hero-section {
+    h3 {
+        font-size: 50px;
+    }
+    .actions {
+        margin: 40px 0;
+        a {
+            --bs-btn-padding-x: 24px;
+            --bs-btn-font-size: 14px;
+            --bs-btn-font-weight: 600;
+        }
+    }
+}

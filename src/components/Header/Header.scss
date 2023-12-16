@@ -1,0 +1,24 @@
+.header.navbar {
+    --bs-navbar-padding-y: 24px;
+    .navbar-brand {
+        font-weight: 500;
+    }
+    .header-btn {
+        --bs-btn-padding-x: 24px;
+        --bs-btn-font-size: 12px;
+        --bs-btn-font-weight: 600;
+    }
+    .theme-btn {
+        .theme-btn-dark {
+            display: none;
+        }
+        [data-bs-theme="dark"] & {
+            .theme-btn-dark {
+                display: block;
+            }
+            .theme-btn-light {
+                display: none;
+            }
+        }
+    }
+}

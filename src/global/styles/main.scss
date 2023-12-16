@@ -1,0 +1,19 @@
+@import 'vendors/bootstrap-theming';
+@import 'vendors/bootstrap';
+@import 'fonts';
+@import 'buttons';
+
+body {
+    font-family: 'Archivo Narrow', 'Rubik', sans-serif;
+}
+
+hr {
+    border-color: #ccdae6;
+    [data-bs-theme="dark"] & {
+        border-color: #888;
+    }
+}
+
+.main-container {
+    max-width: 1000px;
+}

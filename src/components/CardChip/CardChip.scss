@@ -1,0 +1,63 @@
+.card-chip {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    border: 1px solid #F0E9E2;
+    border-radius: 50px;
+    color: #111;
+    text-decoration: none;
+    overflow: hidden;
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #F9F5F0;
+        font-size: 22px;
+        border-radius: 50%;
+        img {
+            width: auto;
+            height: auto;
+            max-width: 25px;
+            max-height: 25px;
+        }
+    }
+    .text {
+        flex-grow: 1;
+        h6 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    .date {
+        color: #918981;
+    }
+    .external {
+        width: 20px;
+        font-size: 22px;
+        text-align: center;
+        transition: 0.2s all ease-in-out;
+    }
+    &[href] {
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+        transition: 0.2s all ease-in-out;
+        &:hover {
+            box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+            .external {
+                color: #918981;
+                transform: scale(3.4) translateY(-8px) translateX(-2px);
+                opacity: 0.1;
+            }
+        }
+    }
+}
