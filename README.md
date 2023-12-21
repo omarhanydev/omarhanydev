@@ -4,7 +4,7 @@
 ### <div align="center">A Front-end Developer who loves back-end development!👨‍💻 🚀</div>  
   
 
-- ✅ I can create projects using jQuery, Angular, Vue and React.  
+- ✅ I can create projects using jQuery, React, Angular +4 and Vue.js.  
   
 
 - 🔭 I’m currently focusing on [React](https://react.dev).  
@@ -15,6 +15,9 @@
 
 <br/>  
 
+<div align="center"><a href="http://omarhany.com/" target="_blank">Portfolio</a></div>
+
+<br/>  
 
 ## My Skills  
 <table><tr><td valign="top" width="33%">
