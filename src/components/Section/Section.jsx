@@ -1,12 +1,13 @@
+import { forwardRef } from 'react';
 import './Section.scss';
 
-function Section({ title, children }) {
+const Section = forwardRef(function Section({ title, children }, ref) {
     return <>
-        <section className='section'>
+        <section className='section' ref={ref}>
             {title && <h5 className='section-title'>{title}</h5>}
             {children}
         </section>
     </>
-}
+});
 
 export default Section;

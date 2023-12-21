@@ -1,10 +1,14 @@
 .hero-section {
     h3 {
         font-size: 50px;
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
     }
     .actions {
         margin: 40px 0;
-        a {
+        a,
+        button {
             --bs-btn-padding-x: 24px;
             --bs-btn-font-size: 14px;
             --bs-btn-font-weight: 600;

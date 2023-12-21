@@ -1,12 +1,12 @@
 .header.navbar {
     --bs-navbar-padding-y: 24px;
-    .navbar-brand {
-        font-weight: 500;
-    }
     .header-btn {
         --bs-btn-padding-x: 24px;
         --bs-btn-font-size: 12px;
         --bs-btn-font-weight: 600;
+        &.button-secondary {
+            --bs-btn-bg: var(--bs-body-bg);
+        }
     }
     .theme-btn {
         .theme-btn-dark {

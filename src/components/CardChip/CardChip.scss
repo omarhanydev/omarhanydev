@@ -10,6 +10,15 @@
     color: #111;
     text-decoration: none;
     overflow: hidden;
+    @media (max-width: 768px) {
+        padding: 15px;
+        gap: 10px;
+    }
+    [data-bs-theme="dark"] & {
+        color: #fff;
+        background-color: #2e3338;
+        border: 1px solid #4d555e;
+    }
     .icon {
         display: flex;
         align-items: center;
@@ -19,11 +28,23 @@
         background-color: #F9F5F0;
         font-size: 22px;
         border-radius: 50%;
+        @media (max-width: 768px) {
+            width: 40px;
+            height: 40px;
+        }
+        [data-bs-theme="dark"] & {
+            color: #111;
+            background-color: #8d949c;
+        }
         img {
             width: auto;
             height: auto;
             max-width: 25px;
             max-height: 25px;
+            @media (max-width: 768px) {
+                width: 20px;
+                height: 20px;
+            }
         }
     }
     .text {
@@ -32,21 +53,37 @@
             margin: 0;
             font-size: 20px;
             font-weight: 400;
+            @media (max-width: 768px) {
+                font-size: 15px;
+            }
         }
         p {
             margin: 0;
             font-size: 20px;
             font-weight: 700;
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
         }
     }
-    .date {
+    .meta {
         color: #918981;
+        @media (max-width: 768px) {
+            font-size: 13px;
+        }
+        [data-bs-theme="dark"] & {
+            color: #7898bc;
+        }
     }
     .external {
         width: 20px;
         font-size: 22px;
         text-align: center;
         transition: 0.2s all ease-in-out;
+        @media (max-width: 768px) {
+            width: 18px;
+            font-size: 16px;
+        }
     }
     &[href] {
         box-shadow: 0 0 0 0 rgba(0,0,0,0);

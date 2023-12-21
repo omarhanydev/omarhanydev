@@ -1,0 +1,9 @@
+.card.skills-card {
+    --bs-dark-rgb: 204, 218, 230;
+    --bs-card-border-color: #F0E9E2;
+    [data-bs-theme="dark"] & {
+        --bs-white-rgb: 46, 51, 56;
+        --bs-card-border-color: #4d555e;
+        --bs-dark-rgb: 100, 100, 100;
+    }
+}
