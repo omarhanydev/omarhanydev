@@ -15,7 +15,7 @@ import { FaGithub, FaGlobe } from "react-icons/fa"
 function App() {
   const worksRef = useRef(null);
   const isMobile = window.innerWidth > 768 ? false : true;
-  
+
   return (
     <>
       <Header worksRef={worksRef} />
@@ -42,7 +42,7 @@ function App() {
                     <hr />
                     <Section title='Certificates'>
                       <Stack direction="vertical" gap={2}>
-                        <CardChip icon={<SiUdacity />} title='React Developer Nanodegree' subtitle='React.js, Redux and React Native' meta='Udacity' url='https://confirm.udacity.com/LENTMFSD' />
+                        <CardChip icon={<SiUdacity />} title='React Developer Nanodegree' subtitle='React.js, Redux and React Native' meta='Udacity' url='https://www.udacity.com/certificate/e/7ab90620-550e-11eb-a8e3-df4ce7a173ff' />
                       </Stack>
                     </Section>
                     <hr />
@@ -58,13 +58,13 @@ function App() {
                             <CardChip icon={<FaGlobe />} title='Daftra' subtitle='Cloud ERP System' url='https://www.daftra.com/' />
                           </div>
                           <div className="col-lg-6">
+                            <CardChip icon={<FaGlobe />} title="Daftra's" subtitle='Knowledge Base' url='https://docs.daftra.com/en/' />
+                          </div>
+                          <div className="col-lg-6">
                             <CardChip icon={<FaGlobe />} title='Enerpize' subtitle='Cloud ERP System' url='https://www.enerpize.com/' />
                           </div>
                           <div className="col-lg-6">
                             <CardChip icon={<FaGlobe />} title='Tanqeeb' subtitle='Jobs search engine' url='https://www.tanqeeb.com/' />
-                          </div>
-                          <div className="col-lg-6">
-                            <CardChip icon={<FaGlobe />} title='Online Invoices' subtitle='Cloud ERP System' url='https://www.onlineinvoices.com/' />
                           </div>
                         </div>
                       </div>
@@ -72,11 +72,11 @@ function App() {
                       <h6 className="mb-3 mt-5"><strong>Front-end Development:</strong></h6>
                       <div className="pb-4">
                         <Stack direction="vertical" gap={2}>
-                          <WorkCard thumbnail={<img src="/img/works/justpiece.png" alt="JustPiece" />} name='JustPiece' description='Largest Egyptian online shopping company specializing in displaying tools and spare parts related to industrial processes and maintenance.' url='https://justpiece.com/' />
                           <WorkCard thumbnail={<img src="/img/works/xdev.png" alt="XDev" />} name='XDev' description='A reliable technology partner for customized software solutions.' url='https://x-dev.tech/' />
-                          <WorkCard thumbnail={<img src="/img/works/offeratko.png" alt="Offeratko" />} name='Offeratko' description='Mobile Application for Jordan offers in malls and electronic stores and tourism agencies.' url='https://offeratko.com/' />
-                          <WorkCard thumbnail={<img src="/img/works/c-reality.png" alt="C.Reality" />} name='C.Reality' description='Innovative and authentic furniture designs company.' url='https://c-reality-front-end.vercel.app/' />
                           <WorkCard thumbnail={<img src="/img/works/go2globe.png" alt="Go2Globe" />} name='Go2Globe' description='Creative Marketing Solutions specialized in animations and illustrations.' url='https://go2globe.x-dev.tech/' />
+                          <WorkCard thumbnail={<img src="/img/works/tgdar.png" alt="TGDAR" />} name='TGDAR' description='Scheduling management software in Gulf region.' url='https://app.tgdar.co/' />
+                          <WorkCard thumbnail={<img src="/img/works/justpiece.png" alt="JustPiece" />} name='JustPiece' description='Largest Egyptian online shopping company specializing in displaying tools and spare parts related to industrial processes and maintenance.' url='https://justpiece.com/' />
+                          <WorkCard thumbnail={<img src="/img/works/c-reality.png" alt="C.Reality" />} name='C.Reality' description='Innovative and authentic furniture designs company.' url='https://c-reality-front-end.vercel.app/' />
                         </Stack>
                       </div>
                       <hr />
@@ -84,8 +84,6 @@ function App() {
                       <div className="pb-4">
                         <Stack direction="vertical" gap={2}>
                           <WorkCard thumbnail={<img src="/img/works/collective-routes.png" alt="Collective Routes" />} name='Collective Routes' description='An enquiry-driven collective committed to researching existing approaches, experimenting with new practices, and producing grounded knowledge in social change.' url='https://www.collectiveroutes.org/' />
-                          <WorkCard thumbnail={<img src="/img/works/polti-me.png" alt="Polti Middle East" />} name='Polti Middle East' description='Polti household appliances to clean the home and irons with boilers.' url='https://polti-me.com/' />
-                          <WorkCard thumbnail={<img src="/img/works/modern-door.png" alt="Modern Door" />} name='Modern Door' description='Company of Specialized in Automatic Doors with years of experience.' url='https://modern-door.com/' />
                         </Stack>
                       </div>
                       <hr />

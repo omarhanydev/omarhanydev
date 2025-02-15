@@ -26,7 +26,7 @@ function SkillsCard() {
                         <span className="badge text-body-secondary border border-dark">Materialize</span>
                         <span className="badge text-body-secondary border border-dark">React</span>
                         <span className="badge text-body-secondary border border-dark">Redux</span>
-                        <span className="badge text-body-secondary border border-dark">Angular +4</span>
+                        <span className="badge text-body-secondary border border-dark">Angular 2+</span>
                         <span className="badge text-body-secondary border border-dark">Vue.js</span>
                         <span className="badge text-body-secondary border border-dark">Gulp</span>
                         <span className="badge text-body-secondary border border-dark">Webpack</span>
