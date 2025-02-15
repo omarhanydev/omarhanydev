@@ -4,10 +4,10 @@
 ### <div align="center">A Front-end Developer who loves back-end development!👨‍💻 🚀</div>  
   
 
-- ✅ I can create projects using jQuery, React, Angular +4 and Vue.js.  
+- ✅ I can create projects using React, Angular 2+, Vue.js, and jQuery.  
   
 
-- 🔭 I’m currently focusing on [React](https://react.dev).  
+- 🔭 I’m currently focusing on [React](https://react.dev), [Angular](https://angular.dev).  
   
 
 - ⚡ I also work with other technologies like Electronjs, React Native and Nodejs.  
